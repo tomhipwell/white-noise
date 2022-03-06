@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# mp3 doesn't need to be checked in
+shhh.mp3
