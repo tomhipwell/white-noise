@@ -7,6 +7,7 @@ def run():
     """Loads mp3 and runs in infinite loop."""
     pygame.mixer.init()
     pygame.mixer.music.load("shhh.mp3")
+    # -1 is the magic value that plays the mp3 infinitely
     pygame.mixer.music.play(-1)
 
     while pygame.mixer.music.get_busy():
